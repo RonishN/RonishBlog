@@ -1,0 +1,119 @@
+body {
+            
+    font-family:sans-serif ;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    background-image:url(img_2.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+header, nav, main, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    font-family: serif;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.blog-post {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+header{
+    text-align: center;
+    font-family: serif;
+    color: Light rgb(157, 255, 0);
+    font-size: larger;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    font-size: larger;
+}
+select{
+    font-size: larger;
+}
+.mid{
+  text-align: center;
+}
+
+
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color:  #fbcd4e;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+.box {
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style for the select box */
+.box select {
+  width: 200px; /* Set your desired width */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0; /* Initial background color */
+  color: #333; /* Initial text color */
+  transition: background-color 0.3s, color 0.3s; /* Transition effect for smooth color change */
+}
+
+/* Change background and text color on hover */
+.box select:hover {
+  background-color: #ddd; /* Hover background color */
+  color: #555; /* Hover text color */
+}
